@@ -56,6 +56,7 @@
   .nav2 {
     margin-top: 50px;
     padding-top: 50px;
+    margin-bottom: 100px;
   }
   .nav2 {
     display: flex;
@@ -92,18 +93,55 @@
   /* Aqui terminan los estilos de la segunda Navbar */
 
   .links-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
     max-width: 800px;
     margin: 0 auto;
   }
-  
+
+  /* Aqui empiezan los estilos de cmi nit */ 
+  h3 {
+    text-align: center;
+    color: #fff;
+    font-family: 'Nerko One', cursive;
+  }
+  .section-2 {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 45px;
+    }
+    .section-2 button {
+        background-color: #0074D9;
+        color: #fff;
+        border-radius: 6px;
+        border: solid 1px;
+        padding: 3px;
+        margin-left: 36px;
+    }
+    .section-2 :hover  {          
+        background-color: #fff;
+        color: #0074D9;
+    }
+    #boton-nit-1 {
+        margin-right: 8px;
+    }
+    #boton-nit-2 {
+        width: 4%;
+    }
+  /* Aqui terminan los estilos de cmi nit */
+
+  /* Aqui van los estilos de los atajos */
   .links-container a {
     border-radius: 12px;
-    display: block;
+    width: calc(25% - 10px);
+    height: 50px;
     padding: 10px;
-    margin-top: 12px;
+    margin-top: 6px;
+    margin-bottom: 0px;
     background-color: #0074D9;
     text-align: center;
     text-decoration: none;
@@ -113,7 +151,29 @@
   .links-container a:hover {
     background-color: #fff;
   }
-  /*  comentado estilos del formulario
+  /* Aqui terminan los estilos de los atajos */
+  
+  /* Aqui empiezan los estilos del formulario */
+  .section-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .section-3 label {
+    display: block;
+    max-width: 300px;
+    margin-bottom: 10px;
+  }
+  
+  .section-3 input[type="text"] {
+    max-width: 300px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
   form {
     display: flex;
     flex-direction: column;
@@ -128,7 +188,11 @@
   input {
     margin-bottom: 10px;
   }
-  */
+   /* Aqui terminan los estilos del formulario */
+  
+
+  
+
   
 
 
