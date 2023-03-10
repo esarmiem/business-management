@@ -56,10 +56,14 @@
         <section>
             <h3>CMI</h3>
             <div class="section-2">
-                <input type="tel" name="" id="boton-nit-1">
-                <input type="tel" name="" id="boton-nit-2">
-                <button>COPIAR NIT</button>
-            </div>
+              <input type="tel" name="" class="boton-nit-1" id="gen-1" onKeyUp="cm1_tecla2()" placeholder="Ingrese Nit" onpaste="cm1_tecla2()"; maxlength="11">
+              <input type="tel" name="" class="boton-nit-2" id="gen-2" maxlength="11">
+              <input type="text" id="gen-3" style="position:absolute; margin-top: -100000px; width:150px; font-size:16px;" maxlength="11">
+              <button value="Copiar" onClick="cm1_c1c()">COPIAR NIT</button>
+              <!-- <button onClick="cm1_c1c()">COPIAR NIT</button> -->
+              <!-- id="boton-nit-1 -->
+              <!-- id="boton-nit-2 -->
+          </div>
         </section>
         <!-- CMI -->
         <!-- Atajos -->
@@ -112,6 +116,6 @@
         <img src="/img/banner.png" class="img-fluid" alt="banner">
     </footer>
     
-    <script src="script.js"></script>
+    <script src="functions/script.js"></script>
 </body>
 </html>

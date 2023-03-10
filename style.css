@@ -132,10 +132,10 @@
         background-color: #fff;
         color: #0074D9;
     }
-    #boton-nit-1 {
+    .boton-nit-1 {
         margin-right: 8px;
     }
-    #boton-nit-2 {
+    .boton-nit-2 {
         width: 4%;
     }
   /* Aqui terminan los estilos de cmi nit */
