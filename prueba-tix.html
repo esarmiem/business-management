@@ -85,11 +85,17 @@
                 <textarea name="" id="output-data-10" cols="30" rows="10"></textarea>
             </div>
             <fieldset>
-                <legend></legend>
-                <button onclick="generateOutputResumen()">Generate Resumen</button>
-                <textarea id="output-area-resumen"></textarea>
-                <button onclick="generateOutput()">Generate Description</button>
-                <textarea id="output-area"></textarea>  
+                <legend>Generator</legend>
+                <div>
+                    <textarea id="output-area-resumen"></textarea>
+                    <button onclick="generateOutputResumen()">Generate Resumen</button>
+                    <button onclick="copyToClipboard('output-area-resumen')">Copy Resumen</button>
+                </div>
+                <div>
+                    <textarea id="output-area"></textarea>
+                    <button onclick="generateOutput()">Generate Description</button>
+                    <button onclick="copyToClipboard('output-area')">Copy Description</button>
+                </div>
             </fieldset>          
         </fieldset>
         
