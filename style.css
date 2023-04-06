@@ -32,6 +32,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    height: 70px;
   }
   
   .logo img {
@@ -63,6 +64,7 @@
     color: #fff;
     width: 2.5rem;
     height: 2.5rem;
+    padding-top: 9px;
   }
   .logo-ingresa {
     color: #fff;
@@ -77,9 +79,18 @@
 
   /* Aqui empiezan los estilos de la segunda Navbar */
   .nav2 {
-    margin-top: 50px;
-    padding-top: 50px;
-    margin-bottom: 30px;
+    background: #2090e4;
+    background: linear-gradient(180deg,#2090e4 0%, #5fb7e5 80%);
+    background: -webkit-linear-gradient(180deg,#2090e4 0%, #5fb7e5 80%);
+    background: -moz-linear-gradient(180deg,#2090e4 0%, #5fb7e5 80%);/* Cambiar el color de fondo a azul */
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    position: fixed;
+    top: 70px; /* ajusta la posición vertical según el alto del header */
+    left: 0;
+    width: 100%;
+    z-index: 998; /* menor que el z-index del header */
   }
   .nav2 {
     display: flex;
@@ -91,6 +102,7 @@
     list-style-type: none;
     display: flex;
     margin: 0;
+    margin-left: 75px;
     padding: 0;
   }
   
@@ -105,14 +117,15 @@
     display: block;
     padding: 10px;
     text-decoration: none;
-    color: #000;
+    color: #F1F5F6;
     border-bottom: 2px solid transparent;
   }
   
   .nav2 a:hover {
-    color: #000;
+    color: #F1F5F6;
     font-weight: bold;
-    border-bottom: 2px solid #000;
+    border-bottom: 2px solid #F1F5F6;
+    padding-bottom: 3px;
   }
   /* Aqui terminan los estilos de la segunda Navbar */
 
@@ -131,6 +144,7 @@
   .wallpaper {
     display: flex;
     justify-content: center;
+    margin-top: 160px;
   }
   .wallpaper img {
     width: 780px;
@@ -206,7 +220,8 @@
     justify-content: center;
     flex-direction: row;
     align-items: center;
-    padding: 0;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   
   .nav2 li {
@@ -253,6 +268,12 @@
   .wallpaper {
     display: flex;
     justify-content: center;
+  }
+  .nav2 li {
+    margin: 0 4px;
+  }
+  .nav2 a {
+    font-size: 12px;
   }
 }
 /* Media query para moviles */
