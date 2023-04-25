@@ -266,7 +266,7 @@ h1 {
 }
 
 .all-tiquetes {
-    margin-top: 150px;
+    margin-top: 160px;
 }
 
 .parent {
@@ -414,11 +414,13 @@ button:hover {
     height: 32em;
 }
 /*APERTURA DIRECTA CONTRA EL NE*/
-/*APERTURA DIRECTA CONTRA EL NE*/
+
+/*APERTURA DOBLE - APERTURA DE DOS*/
 .ingresa-doble2--container {
     margin-bottom: 3px;
 }
-/*APERTURA DIRECTA CONTRA EL NE*/
+/*APERTURA DOBLE - APERTURA DE DOS*/
+
 /*REINGRESO AL ANILLO*/
 .text-anillo {
     font-weight: bold;
@@ -430,6 +432,7 @@ button:hover {
     height: 11em;
 }
 /*REINGRESO AL ANILLO*/
+
 /*ALARMA DE POTENCIA*/
 .container-extremo-a-potencia {
     margin-top: 3px;
